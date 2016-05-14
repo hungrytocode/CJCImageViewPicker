@@ -15,6 +15,18 @@
 		2F0297671CE76C21006464C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F0297651CE76C21006464C8 /* LaunchScreen.storyboard */; };
 		2F0297721CE76C21006464C8 /* CJCImageViewPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0297711CE76C21006464C8 /* CJCImageViewPickerTests.m */; };
 		2F02977D1CE76C21006464C8 /* CJCImageViewPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F02977C1CE76C21006464C8 /* CJCImageViewPickerUITests.m */; };
+		2F0297A21CE76C77006464C8 /* LxGridViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F02978B1CE76C77006464C8 /* LxGridViewFlowLayout.m */; };
+		2F0297A31CE76C77006464C8 /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F02978E1CE76C77006464C8 /* TZAssetCell.m */; };
+		2F0297A41CE76C77006464C8 /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0297901CE76C77006464C8 /* TZAssetModel.m */; };
+		2F0297A51CE76C77006464C8 /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0297921CE76C77006464C8 /* TZImageManager.m */; };
+		2F0297A61CE76C77006464C8 /* TZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2F0297931CE76C77006464C8 /* TZImagePickerController.bundle */; };
+		2F0297A71CE76C77006464C8 /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0297951CE76C77006464C8 /* TZImagePickerController.m */; };
+		2F0297A81CE76C77006464C8 /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0297971CE76C77006464C8 /* TZPhotoPickerController.m */; };
+		2F0297A91CE76C77006464C8 /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0297991CE76C77006464C8 /* TZPhotoPreviewCell.m */; };
+		2F0297AA1CE76C77006464C8 /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F02979B1CE76C77006464C8 /* TZPhotoPreviewController.m */; };
+		2F0297AB1CE76C77006464C8 /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F02979D1CE76C77006464C8 /* TZVideoPlayerController.m */; };
+		2F0297AC1CE76C77006464C8 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F02979F1CE76C77006464C8 /* UIView+Layout.m */; };
+		2F0297AD1CE76C77006464C8 /* TZTestCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F0297A11CE76C77006464C8 /* TZTestCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +63,29 @@
 		2F0297781CE76C21006464C8 /* CJCImageViewPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CJCImageViewPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F02977C1CE76C21006464C8 /* CJCImageViewPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CJCImageViewPickerUITests.m; sourceTree = "<group>"; };
 		2F02977E1CE76C21006464C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F02978A1CE76C77006464C8 /* LxGridViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LxGridViewFlowLayout.h; sourceTree = "<group>"; };
+		2F02978B1CE76C77006464C8 /* LxGridViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LxGridViewFlowLayout.m; sourceTree = "<group>"; };
+		2F02978D1CE76C77006464C8 /* TZAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetCell.h; sourceTree = "<group>"; };
+		2F02978E1CE76C77006464C8 /* TZAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetCell.m; sourceTree = "<group>"; };
+		2F02978F1CE76C77006464C8 /* TZAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetModel.h; sourceTree = "<group>"; };
+		2F0297901CE76C77006464C8 /* TZAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetModel.m; sourceTree = "<group>"; };
+		2F0297911CE76C77006464C8 /* TZImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageManager.h; sourceTree = "<group>"; };
+		2F0297921CE76C77006464C8 /* TZImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageManager.m; sourceTree = "<group>"; };
+		2F0297931CE76C77006464C8 /* TZImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TZImagePickerController.bundle; sourceTree = "<group>"; };
+		2F0297941CE76C77006464C8 /* TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImagePickerController.h; sourceTree = "<group>"; };
+		2F0297951CE76C77006464C8 /* TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImagePickerController.m; sourceTree = "<group>"; };
+		2F0297961CE76C77006464C8 /* TZPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPickerController.h; sourceTree = "<group>"; };
+		2F0297971CE76C77006464C8 /* TZPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPickerController.m; sourceTree = "<group>"; };
+		2F0297981CE76C77006464C8 /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		2F0297991CE76C77006464C8 /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		2F02979A1CE76C77006464C8 /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		2F02979B1CE76C77006464C8 /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		2F02979C1CE76C77006464C8 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoPlayerController.h; sourceTree = "<group>"; };
+		2F02979D1CE76C77006464C8 /* TZVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoPlayerController.m; sourceTree = "<group>"; };
+		2F02979E1CE76C77006464C8 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		2F02979F1CE76C77006464C8 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		2F0297A01CE76C77006464C8 /* TZTestCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTestCell.h; sourceTree = "<group>"; };
+		2F0297A11CE76C77006464C8 /* TZTestCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTestCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +136,11 @@
 		2F0297561CE76C21006464C8 /* CJCImageViewPicker */ = {
 			isa = PBXGroup;
 			children = (
+				2F02978A1CE76C77006464C8 /* LxGridViewFlowLayout.h */,
+				2F02978B1CE76C77006464C8 /* LxGridViewFlowLayout.m */,
+				2F02978C1CE76C77006464C8 /* TZImagePickerController */,
+				2F0297A01CE76C77006464C8 /* TZTestCell.h */,
+				2F0297A11CE76C77006464C8 /* TZTestCell.m */,
 				2F02975A1CE76C21006464C8 /* AppDelegate.h */,
 				2F02975B1CE76C21006464C8 /* AppDelegate.m */,
 				2F02975D1CE76C21006464C8 /* ViewController.h */,
@@ -138,6 +178,32 @@
 				2F02977E1CE76C21006464C8 /* Info.plist */,
 			);
 			path = CJCImageViewPickerUITests;
+			sourceTree = "<group>";
+		};
+		2F02978C1CE76C77006464C8 /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				2F02978D1CE76C77006464C8 /* TZAssetCell.h */,
+				2F02978E1CE76C77006464C8 /* TZAssetCell.m */,
+				2F02978F1CE76C77006464C8 /* TZAssetModel.h */,
+				2F0297901CE76C77006464C8 /* TZAssetModel.m */,
+				2F0297911CE76C77006464C8 /* TZImageManager.h */,
+				2F0297921CE76C77006464C8 /* TZImageManager.m */,
+				2F0297931CE76C77006464C8 /* TZImagePickerController.bundle */,
+				2F0297941CE76C77006464C8 /* TZImagePickerController.h */,
+				2F0297951CE76C77006464C8 /* TZImagePickerController.m */,
+				2F0297961CE76C77006464C8 /* TZPhotoPickerController.h */,
+				2F0297971CE76C77006464C8 /* TZPhotoPickerController.m */,
+				2F0297981CE76C77006464C8 /* TZPhotoPreviewCell.h */,
+				2F0297991CE76C77006464C8 /* TZPhotoPreviewCell.m */,
+				2F02979A1CE76C77006464C8 /* TZPhotoPreviewController.h */,
+				2F02979B1CE76C77006464C8 /* TZPhotoPreviewController.m */,
+				2F02979C1CE76C77006464C8 /* TZVideoPlayerController.h */,
+				2F02979D1CE76C77006464C8 /* TZVideoPlayerController.m */,
+				2F02979E1CE76C77006464C8 /* UIView+Layout.h */,
+				2F02979F1CE76C77006464C8 /* UIView+Layout.m */,
+			);
+			path = TZImagePickerController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F0297671CE76C21006464C8 /* LaunchScreen.storyboard in Resources */,
+				2F0297A61CE76C77006464C8 /* TZImagePickerController.bundle in Resources */,
 				2F0297641CE76C21006464C8 /* Assets.xcassets in Resources */,
 				2F0297621CE76C21006464C8 /* Main.storyboard in Resources */,
 			);
@@ -273,9 +340,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F0297AA1CE76C77006464C8 /* TZPhotoPreviewController.m in Sources */,
+				2F0297AD1CE76C77006464C8 /* TZTestCell.m in Sources */,
+				2F0297A41CE76C77006464C8 /* TZAssetModel.m in Sources */,
+				2F0297AB1CE76C77006464C8 /* TZVideoPlayerController.m in Sources */,
+				2F0297A51CE76C77006464C8 /* TZImageManager.m in Sources */,
+				2F0297A21CE76C77006464C8 /* LxGridViewFlowLayout.m in Sources */,
+				2F0297AC1CE76C77006464C8 /* UIView+Layout.m in Sources */,
+				2F0297A91CE76C77006464C8 /* TZPhotoPreviewCell.m in Sources */,
+				2F0297A81CE76C77006464C8 /* TZPhotoPickerController.m in Sources */,
+				2F0297A31CE76C77006464C8 /* TZAssetCell.m in Sources */,
 				2F02975F1CE76C21006464C8 /* ViewController.m in Sources */,
 				2F02975C1CE76C21006464C8 /* AppDelegate.m in Sources */,
 				2F0297591CE76C21006464C8 /* main.m in Sources */,
+				2F0297A71CE76C77006464C8 /* TZImagePickerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

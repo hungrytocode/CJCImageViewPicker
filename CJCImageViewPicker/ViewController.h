@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "TZImagePickerController.h"
+@interface ViewController : UIViewController <TZImagePickerControllerDelegate,UICollectionViewDataSource,UICollectionViewDelegate>
 
 
 @end
